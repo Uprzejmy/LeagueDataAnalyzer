@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeagueDataAnalyzer", "LeagueDataAnalyzer\LeagueDataAnalyzer.csproj", "{B5371EC9-6B96-462D-9259-F440A6CE975B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeagueDataAnalyzer", "LeagueDataAnalyzer\LeagueDataAnalyzer.csproj", "{ECB74723-D503-4DC8-B165-61AC52B3E4FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeagueDataAnalyzer.Tests", "LeagueDataAnalyzer.Tests\LeagueDataAnalyzer.Tests.csproj", "{211F4325-B7DB-477A-BBF3-BE234E77493D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B5371EC9-6B96-462D-9259-F440A6CE975B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B5371EC9-6B96-462D-9259-F440A6CE975B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B5371EC9-6B96-462D-9259-F440A6CE975B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B5371EC9-6B96-462D-9259-F440A6CE975B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECB74723-D503-4DC8-B165-61AC52B3E4FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECB74723-D503-4DC8-B165-61AC52B3E4FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECB74723-D503-4DC8-B165-61AC52B3E4FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECB74723-D503-4DC8-B165-61AC52B3E4FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{211F4325-B7DB-477A-BBF3-BE234E77493D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{211F4325-B7DB-477A-BBF3-BE234E77493D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{211F4325-B7DB-477A-BBF3-BE234E77493D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{211F4325-B7DB-477A-BBF3-BE234E77493D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
