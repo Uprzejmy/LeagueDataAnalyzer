@@ -129,7 +129,10 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MatchHistoriesController.cs" />
     <Compile Include="Controllers\StudentController.cs" />
+    <Compile Include="DAL\MatchHistoryContext.cs" />
+    <Compile Include="DAL\MatchHistoryInitializer.cs" />
     <Compile Include="DAL\SchoolContext.cs" />
     <Compile Include="DAL\SchoolInitializer.cs" />
     <Compile Include="Global.asax.cs">
@@ -137,6 +140,7 @@
     </Compile>
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\Enrollment.cs" />
+    <Compile Include="Models\MatchResult.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -180,6 +184,11 @@
     <Content Include="Views\Student\Details.cshtml" />
     <Content Include="Views\Student\Edit.cshtml" />
     <Content Include="Views\Student\Index.cshtml" />
+    <Content Include="Views\MatchHistories\Create.cshtml" />
+    <Content Include="Views\MatchHistories\Delete.cshtml" />
+    <Content Include="Views\MatchHistories\Details.cshtml" />
+    <Content Include="Views\MatchHistories\Edit.cshtml" />
+    <Content Include="Views\MatchHistories\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
