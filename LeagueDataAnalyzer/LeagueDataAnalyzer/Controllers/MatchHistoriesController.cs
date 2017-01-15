@@ -8,12 +8,20 @@ using System.Web;
 using System.Web.Mvc;
 using LeagueDataAnalyzer.DAL;
 using LeagueDataAnalyzer.Models;
+using System.Configuration;
 
 namespace LeagueDataAnalyzer.Controllers
 {
     public class MatchHistoriesController : Controller
     {
         private MatchHistoryContext db = new MatchHistoryContext();
+
+        public ActionResult GetKey()
+        {
+            ViewBag.RiotKey = ConfigurationManager.AppSettings["riot_key"];
+
+            return View();
+        }
 
         // GET: MatchHistories
         public ActionResult Index()
