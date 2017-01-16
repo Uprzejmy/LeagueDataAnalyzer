@@ -12,7 +12,7 @@ using System.Configuration;
 
 namespace LeagueDataAnalyzer.Controllers
 {
-    public class MatchHistoriesController : Controller
+    public class MatchesHistoryController : Controller
     {
         private MatchHistoryContext db = new MatchHistoryContext();
 

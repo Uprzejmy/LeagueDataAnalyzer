@@ -129,13 +129,20 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\MatchHistoriesController.cs" />
+    <Compile Include="Controllers\MatchesHistoryController.cs" />
     <Compile Include="DAL\MatchHistoryContext.cs" />
     <Compile Include="DAL\MatchHistoryInitializer.cs" />
+    <Compile Include="DAL\Repository\IRepository.cs" />
+    <Compile Include="DAL\Repository\MatchResultRepository\IMatchResultRepository.cs" />
+    <Compile Include="DAL\Repository\MatchResultRepository\MatchResultRepository.cs" />
+    <Compile Include="DAL\Repository\Repository.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\MatchResult.cs" />
+    <Compile Include="Models\MatchesHistoryModel.cs" />
+    <Compile Include="DAL\UnitOfWork\IUnitOfWorkNonTransactional.cs" />
+    <Compile Include="DAL\UnitOfWork\UnitOfWorkNonTransactional.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -175,12 +182,12 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\MatchHistories\Create.cshtml" />
-    <Content Include="Views\MatchHistories\Delete.cshtml" />
-    <Content Include="Views\MatchHistories\Details.cshtml" />
-    <Content Include="Views\MatchHistories\Edit.cshtml" />
-    <Content Include="Views\MatchHistories\Index.cshtml" />
-    <Content Include="Views\MatchHistories\GetKey.cshtml" />
+    <Content Include="Views\MatchesHistory\Create.cshtml" />
+    <Content Include="Views\MatchesHistory\Delete.cshtml" />
+    <Content Include="Views\MatchesHistory\Details.cshtml" />
+    <Content Include="Views\MatchesHistory\Edit.cshtml" />
+    <Content Include="Views\MatchesHistory\Index.cshtml" />
+    <Content Include="Views\MatchesHistory\GetKey.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
