@@ -6,15 +6,21 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using System.Configuration;
+
 using LeagueDataAnalyzer.DAL;
 using LeagueDataAnalyzer.Models;
-using System.Configuration;
 
 namespace LeagueDataAnalyzer.Controllers
 {
     public class MatchesHistoryController : Controller
     {
         private MatchHistoryContext db = new MatchHistoryContext();
+
+        public ActionResult Example()
+        {
+            return View();
+        }
 
         public ActionResult GetKey()
         {

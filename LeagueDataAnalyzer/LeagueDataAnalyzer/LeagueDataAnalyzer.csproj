@@ -132,17 +132,11 @@
     <Compile Include="Controllers\MatchesHistoryController.cs" />
     <Compile Include="DAL\MatchHistoryContext.cs" />
     <Compile Include="DAL\MatchHistoryInitializer.cs" />
-    <Compile Include="DAL\Repository\IRepository.cs" />
-    <Compile Include="DAL\Repository\MatchResultRepository\IMatchResultRepository.cs" />
-    <Compile Include="DAL\Repository\MatchResultRepository\MatchResultRepository.cs" />
-    <Compile Include="DAL\Repository\Repository.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\MatchResult.cs" />
     <Compile Include="Models\MatchesHistoryModel.cs" />
-    <Compile Include="DAL\UnitOfWork\IUnitOfWorkNonTransactional.cs" />
-    <Compile Include="DAL\UnitOfWork\UnitOfWorkNonTransactional.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -188,6 +182,7 @@
     <Content Include="Views\MatchesHistory\Edit.cshtml" />
     <Content Include="Views\MatchesHistory\Index.cshtml" />
     <Content Include="Views\MatchesHistory\GetKey.cshtml" />
+    <Content Include="Views\MatchesHistory\Example.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
